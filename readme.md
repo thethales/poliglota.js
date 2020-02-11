@@ -6,7 +6,9 @@ variable content to multi language webpages.
 ## Getting Started
 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+To get a running example, just download the entire directory contents and execute [example.html](https://github.com/thethales/poliglota.js/blob/master/example.html)
+
 Note: The project is still on its infacy, therefore perfomance issues might be a thing.
 
 ### Prerequisites
@@ -31,7 +33,7 @@ A JSON file containing the proper sentences in the desired languages must be cre
 
 ### Installing
 
-Donwload the contentes of the folder *src* and place them inside your project JS library folder
+Download the contents of the folder *src* and place them inside your project JS library folder
 
 Make the reference to the javascrit file in your HTML page
 
@@ -60,11 +62,11 @@ Call the constructor, setting the parameters of language and the JSON file conta
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details, code of conduct, and the process for submitting pull requests to us.
+~~Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details, code of conduct, and the process for submitting pull requests to us.~~
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+~~We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). ~~
 
 ## Authors
 
@@ -72,8 +74,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/thethales/poliglota.js/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 
-* This little project was made out of a imediate code necessity, feel free to contribute and suggest any improvments.
+* This little project was made out of a immediate thought spark, feel free to contribute and suggest any improvments.
