@@ -7,13 +7,13 @@ variable content to multi language webpages.
 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-The project still is on is infacy, therefore perfomance issues might be possible
+Note: The project is still on its infacy, therefore perfomance issues might be a thing.
 
 ### Prerequisites
 
 Note: The browser must have Javascript Support
 
-A JSON file containing the proper setences in the desired languages must be created following the sample.json or according to the strcute below
+A JSON file containing the proper sentences in the desired languages must be created following the sample file [data.json](https://github.com/thethales/poliglota.js/blob/master/data.json)  (Documentend [here](https://github.com/thethales/poliglota.js/blob/master/data.schema.json))  or according to the structure below 
 
 ```
 {
@@ -31,15 +31,24 @@ A JSON file containing the proper setences in the desired languages must be crea
 
 ### Installing
 
-Donwload the files of the library and place them inside your project JS library folder
+Donwload the contentes of the folder *src* and place them inside your project JS library folder
 
-Make the reference to the javascrit file
+Make the reference to the javascrit file in your HTML page
 
 ```
 <script src='poliglota.js'></script>
 ```
 
-Call the constructor
+
+
+With the data JSON file in mind, create or adapt the HTML page with the addition of the reserverd data attribute at the desired places for sentence substituion
+
+```
+<div data-poli>
+</div>
+```
+
+Call the constructor, setting the parameters of language and the JSON file containing the dataset
 
 ```
 <script>
@@ -48,9 +57,6 @@ Call the constructor
     poliglota.init('en-us', '\data.json');
 </script>
 ```
-
-Done
-
 
 ## Contributing
 
