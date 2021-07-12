@@ -60,18 +60,6 @@ Call the constructor, setting the parameters of language and the JSON file conta
 </script>
 ```
 
-## Contributing
-
-~~Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details, code of conduct, and the process for submitting pull requests to us.~~
-
-## Versioning
-
-~~We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). ~~
-
-## Authors
-
-* **Thales** - *Initial work* - [thethales](https://github.com/thethales)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/thethales/poliglota.js/blob/master/LICENSE) file for details
